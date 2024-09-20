@@ -30,6 +30,7 @@ The following Python libraries were used to build, train, and evaluate the machi
 Dropping irrelevant columns: The 'subject' column was removed as it did not contribute to activity recognition.
 Sampling the dataset: Due to the large size of the dataset, a representative subset was taken to reduce computational overhead without compromising model accuracy.
 Data normalization: To ensure consistent scaling across features, data normalization was applied to the sensor readings.
+
 2-**Exploratory Data Analysis (EDA)**: Exploratory analysis was conducted to understand the dataset and detect any irregularities. The steps included:
 
 Heatmap visualization: A correlation matrix was generated to identify relationships between numerical columns, helping in feature selection.
@@ -86,7 +87,7 @@ Each model was evaluated based on the following metrics to determine performance
 
 
 
-5-**Results and Analysis**:
+# 5-**Results and Analysis**:
 
 -The Neural Network model performed the best, achieving the highest accuracy and balanced precision-recall across activities.
 -SVM performed well but required extensive tuning to avoid overfitting in high-dimensional space.
@@ -96,13 +97,13 @@ Each model was evaluated based on the following metrics to determine performance
 
 
 
-6-**User Interface**:
+# 6-**User Interface**:
  While no web interface was developed for this project, visualizations of model performance and confusion matrices were generated using Matplotlib and Seaborn, providing insights into model effectiveness and error distribution.
 
 
 
 
-**Techniques and Models**:
+# **Techniques and Models**:
 *TF-IDF for Feature Representation: Although not directly applied in this project, TF-IDF is commonly used in text-based datasets to represent term importance. For future projects involving text data, this method can be explored for feature representation.
 
 *Cross-Validation and Hyperparameter Tuning: Cross-validation was used to ensure that model performance generalized well to unseen data. Grid search was applied to optimize hyperparameters like the number of neighbors in KNN and the kernel type for SVM.
