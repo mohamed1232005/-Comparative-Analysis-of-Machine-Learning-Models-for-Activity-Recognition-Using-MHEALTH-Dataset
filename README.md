@@ -1,0 +1,2 @@
+# -Comparative-Analysis-of-Machine-Learning-Models-for-Activity-Recognition-Using-MHEALTH-Dataset
+This project implements machine learning models to perform activity recognition using the MHEALTH dataset. The objective was to compare multiple machine learning models—K-Nearest Neighbors (KNN), Linear Regression, Support Vector Machines (SVM), Neural Networks, and Logistic Regression—to determine which model performs best .
